@@ -14,7 +14,7 @@ PBI Visuals
 [**PBIX File Download**](https://github.com/OndrejZapletal99/PBI_Visuals/blob/main/Pareto/Pareto.pbix)
 
 
-![Pareto final]([Pareto_finished.png](https://github.com/OndrejZapletal99/PBI_Visuals/blob/main/Pareto/Pareto_finished.png))
+![Pareto final][Pareto_finished.png](https://github.com/OndrejZapletal99/PBI_Visuals/blob/main/Pareto/Pareto_finished.png)
 
 
 1. **Create** a Line and Stacked Column Chart.  
