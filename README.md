@@ -47,37 +47,41 @@ This visual is ideal for before/after analyses, year-over-year comparisons, or a
 
 ## 3. Scatter Plot Quadrant Analysis
 
-This section describes how to create a scatter plot in Power BI that segments your data into quadrants based on customizable margin and sales parameters. This approach allows you to easily identify products or product categories with high sales and high margins, as well as other combinations (e.g., high sales/low margin, low sales/high margin, low sales/low margin).
+Want to quickly see which products or categories are your best?  
+Use a scatter plot with quadrants in Power BI! Just set your own margin and sales limits (parameters) and see everything at a glance.
 
-### Steps to Create a Scatter Plot with Quadrants in Power BI
+### How to do it
 
-1. **Prepare your data**  
-   Ensure your dataset contains at least the following fields:  
+1. **Get your data ready**  
+   You need:  
    - Product or Product Category  
    - Sales  
-   - Margin (as a percentage or value)
+   - Margin (% or value)
 
-2. **Add a Scatter Plot Visual**  
-   - Insert a scatter plot visual into your Power BI report.
-   - Assign the appropriate fields to the X-axis (Sales), Y-axis (Margin), and Details (Product/Product Category).
+2. **Add a scatter plot**  
+   - Put Sales on X-axis  
+   - Margin on Y-axis  
+   - Product or Category as Details
 
-3. **Create Margin and Sales Parameters**  
-   - Use Power BI's "What-if Parameter" feature to create dynamic parameters for Margin and Sales thresholds.
-   - These parameters will be used to define the quadrant boundaries.
+3. **Create parameters**  
+   - Use "What-if Parameter" in Power BI for Margin and Sales  
+   - These set your quadrant lines
 
-4. **Add Quadrant Calculation**  
-   - Create a calculated column in visual calculations to assign each data point to a quadrant based on the selected parameter values:
-     - High Margin & High Sales
-     - High Margin & Low Sales
-     - Low Margin & High Sales
+4. **Add quadrant logic**  
+   - Make a calculated column or measure to say if each point is:  
+     - High Margin & High Sales  
+     - High Margin & Low Sales  
+     - Low Margin & High Sales  
      - Low Margin & Low Sales
 
-5. **Format the Scatter Plot**  
-   - Use reference lines and shade areas.
+5. **Format your plot**  
+   - Add reference lines for your parameters  
+   - Color by quadrant
 
-6. **Interpret the Results**  
-   - Use the scatter plot to quickly identify which products or categories fall into each quadrant.
-   - Focus on the "High Margin & High Sales" quadrant for top performers, and analyze other quadrants for improvement opportunities.
+6. **Read your results**  
+   - Top right = best (high margin, high sales)  
+   - Bottom left = needs work  
+   - Super easy to spot trends!
 
 ### Example
 
@@ -87,4 +91,6 @@ This section describes how to create a scatter plot in Power BI that segments yo
 
 ---
 
-This visual approach is ideal for portfolio analysis, product performance reviews, and strategic decision-making, enabling you to focus on the most valuable segments of your business.
+You can use this for products, customers, projects—anything!  
+Just change the fields and parameters.  
+Easy, visual, and fast.
