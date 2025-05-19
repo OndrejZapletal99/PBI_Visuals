@@ -83,7 +83,7 @@ This section describes how to create a scatter plot in Power BI that segments yo
 
 *Add your scatter plot screenshot here:*
 
-![Scatter Plot Quadrant Example]([path/to/your/scatter_plot_image.png](https://github.com/OndrejZapletal99/PBI_Visuals/blob/main/Scatter%20Quadrant/Scatter_Quadrant.png))
+![Scatter Plot Quadrant Example](https://github.com/OndrejZapletal99/PBI_Visuals/blob/main/Scatter%20Quadrant/Scatter_Quadrant.png)
 
 ---
 
